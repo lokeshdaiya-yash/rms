@@ -1,0 +1,39 @@
+/*
+Override variables defined in boostrap
+*/
+
+// primary colors
+$main:#3a2f9c;
+$second: #646464 !default;
+$secondDark:#3a2f9c;
+$error:#dc3545;
+// scss-docs-start theme-color-variables
+$primary: $main !default;
+
+$side-menu-text-color: $main; 
+$form-check-input-checked-color:  $main;
+$form-check-input-checked-bg-color: $main;
+$multi-select-chip-color: #6c757d;
+$footer-text: wheat;  // #7c7f81
+$multi-select-chip-bg-color: #efefef;
+$multi-select-chip-close-bg-color: #bbbbbb;
+$label-hint-text-color: #9f9f9f;
+$react-datepicker__day: #54708b;
+$react-datepicker__day--disabled: rgba(0, 0, 0, 0.25);
+$react-datepicker_star-end: #c7d3df;
+
+
+$white: #ffffff;
+$grey:#cccccc;
+$secondGrey:#f5f6f8;
+// Typography
+$font-family-sans-serif: "Poppins", Roboto, "Helvetica Neue", Arial,
+  "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+  "Segoe UI Symbol", "Noto Color Emoji";
+$headings-font-weight: 700;
+
+/****************/
+
+/***************/
+
+

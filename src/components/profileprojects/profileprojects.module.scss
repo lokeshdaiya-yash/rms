@@ -1,0 +1,101 @@
+/*
+ * Replace this with your own classes
+ *
+ * e.g.
+ * .container {
+ * }
+*/
+
+.spinner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 10rem;
+}
+
+.skill {
+        &-top {
+                margin-top: 1.875rem;
+        }
+
+        &-row {
+                margin-top: 1.25rem;
+                width: 60%;
+                border-radius: 1.25rem;
+                height: fit-content;
+        }
+
+        &-color {
+                font-size: large;
+                font-weight: 500;
+        }
+
+        &-bg {
+                margin-bottom: 0.625rem;
+        }
+
+        &-img {
+                height: 3.75rem;
+                width: 3.75rem;
+                box-shadow: 0px 0px 12px #0000000d;
+                border-radius: 50%;
+                padding: 5px;
+                margin-left: 65px;
+
+        }
+
+        &-img>img {
+                height: 100%;
+                width: 100%;
+                border-radius: 1.875rem;
+
+        }
+}
+
+
+.cards {
+        min-height: 15.5rem;
+        width: 15.5rem;
+
+        justify-content: space-around;
+        box-shadow: 0px 0px 12px #0000000d;
+        border-radius: 1.25rem;
+        opacity: 1;
+        padding: 1.5rem;
+}
+
+.profile {
+        &-card-body {
+                margin-top: 0px;
+                flex: 1 1 auto;
+                padding: 0px !important;
+        }
+        &-card-heading {
+                color: #292929;
+                padding-top: 1rem;
+                padding-bottom: 1rem;
+                font: normal normal 600 18px/27px Poppins;
+                height: 120px;
+
+        }
+
+        &-card-description {
+                color: #696666;
+        }
+}
+
+
+.tab-item-wrapper {
+        margin-top: 2.81rem;
+        text-align: center;
+}
+
+.view-more-link {
+        color: #397ef5;
+        cursor: pointer;
+        margin-top: 30px;
+}
+
+.no-skill {
+        padding-top: 1rem;
+}

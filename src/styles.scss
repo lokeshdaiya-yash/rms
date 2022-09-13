@@ -1,0 +1,68 @@
+/* You can add global styles to this file, and also import other style files */
+@import "./styles/index.scss";
+@import "./libs/ptg-ui/styles/index.scss";
+
+.ReactTable {
+
+  // display vertical scrollbar for fixed width grid
+  .rt-table {
+    display: block;
+    position: relative;
+    max-height: 375px;
+    overflow-y: auto;
+  }
+
+}
+
+.primary-heading {
+  font-size: 26px;
+  color: #555555;
+}
+
+.seconday-heading {
+  font-size: 12px;
+  color: #555555;
+}
+
+.heading-color {
+  color: #555555;
+}
+
+.SingleDatePickerInput__withBorder {
+  border: none !important;
+}
+
+.rating_date-picker-container__T53gG {
+  width: fit-content;
+  margin: 1rem auto;
+}
+
+div.rating_date-picker-container__T53gG>div>div>input[type=text] {
+  box-sizing: border-box;
+  min-width: 13.25rem;
+  padding: .3rem;
+  border: none;
+}
+
+div.rating_date-picker-container__T53gG>div>div>input[type=text]:focus-visible {
+  outline: 1px solid grey;
+}
+
+.react-datepicker-popper {
+  z-index: 100 !important;
+}
+
+.react-datepicker__day--keyboard-selected {
+  border-radius: 0;
+  background-color: #fff;
+  color: #000;
+}
+.vertical-timeline-element-content .vertical-timeline-element-date {
+  box-shadow: none !important;
+}
+
+.loading {
+  display: inline-block !important;
+  margin: 20% 10px 0 48% !important;
+}
+

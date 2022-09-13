@@ -1,0 +1,24 @@
+.ReactTable .rt-thead {
+  &.-header {
+    color: #fff;
+    background-color: #6c7ae0;
+  }
+}
+
+.ReactTable .-pagination .-next {
+    background-color: #6c7ae0;
+    border-color: #6c7ae0;
+    color: #ffffff;    
+
+}
+
+.ReactTable .-pagination .-btn:not([disabled]) {
+    color: #ffffff;    
+}
+
+.ReactTable .rt-thead.-filters input {
+    border: 1px solid black !important;
+}
+
+
+    

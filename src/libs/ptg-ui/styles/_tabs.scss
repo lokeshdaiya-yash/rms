@@ -1,0 +1,26 @@
+.nav-tabs:not(.app-tabs) {
+  .nav-link {
+    color: $dark-grey;
+    width: 240px;
+    &.active {
+      color: black;
+      border-bottom: 2px solid blue;
+    }
+  }
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  color: #495057;
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+
+.nav-tabs .nav-link:hover {
+  border: none;
+  outline: none;
+}
+.nav-tabs .nav-link {
+  border: none;
+  outline: none;
+}
