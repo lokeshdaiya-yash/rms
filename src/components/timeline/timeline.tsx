@@ -11,7 +11,6 @@ import {
   TIMELINE_API,
   TIMELINE_POST_API,
 } from '../../constants/apiUrl';
-import { courseData } from '../../courseData/courseData';
 import { useLocation } from 'react-router-dom';
 import { authClass } from '../auth/services/auth.service';
 
@@ -61,7 +60,6 @@ export function TimeLine(props: TimeLineProps) {
       })
       .then((res) => {
         notifySuccess(res?.data?.message);
-        if (!hasCourseStarted) navigate('/course',{state: courseData[index]});
         getTimelineData();
       })
       .catch(({ response }) => {

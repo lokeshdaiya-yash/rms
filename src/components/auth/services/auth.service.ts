@@ -14,19 +14,11 @@ class AuthService {
   getToken(): string {
     return localStorage.getItem(this.TOKEN_KEY) || '';
   }
-  setRole(role: string): void {
-    if (role) {
-      localStorage.setItem(this.ROLE_TYPE, role);
-    }
-  }
+  
   getRole(): string {
     return localStorage.getItem(this.ROLE_TYPE) || '';
   }
-  setDesignation(designation: string): void {
-    if (designation) {
-      localStorage.setItem(this.DESIGNATION, designation);
-    }
-  }
+ 
   getDesignation(): string {
     return localStorage.getItem(this.DESIGNATION) || '';
   }
